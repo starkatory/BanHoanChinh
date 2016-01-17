@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Danh sach Menu trong SlidingBar-->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/ic_home"></item>
+        <item android:id="@+id/my_music"
+            android:title="My Music"
+            android:icon="@drawable/ic_play"
+            ></item>
+        <item
+            android:id="@+id/my_story"
+            android:title="My Story"
+            android:icon="@drawable/ic_play"
+            ></item>
+        <item android:id="@+id/my_video"
+            android:title="My Video"
+            android:icon="@drawable/ic_menu_slideshow"></item>
+        <item android:id="@+id/instructions_id"
+            android:title="Instructions"
+            android:icon="@drawable/ic_menu_help"
+            ></item>
+        <item android:id="@+id/about_id"
+            android:title="About"
+            android:icon="@drawable/ic_menu_info"
+            ></item>
+
+    </group>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_help" type="drawable">@android:drawable/ic_menu_help</item>
+    <item name="ic_menu_info" type="drawable">@android:drawable/ic_menu_info_details</item>
+    <item name="ic_launcher" type="drawable">@android:drawable/sym_def_app_icon</item>
+    <item name="ic_play" type="drawable">@android:drawable/ic_media_play</item>
+    <item name="ic_add" type="drawable">@android:drawable/ic_menu_add</item>
+    <item name="ic_next" type="drawable">@android:drawable/ic_media_next</item>
+    <item name="ic_previous" type="drawable">@android:drawable/ic_media_previous</item>
+    <item name="ic_delete" type="drawable">@android:drawable/ic_delete</item>
+    <item name="ic_edit" type="drawable">@android:drawable/ic_menu_edit</item>
+    <item name="ic_more" type="drawable">@android:drawable/ic_menu_more</item>
+    <item name="ic_save" type="drawable">@android:drawable/ic_menu_save</item>
+    <item name="ic_arrow_down" type="drawable">@android:drawable/arrow_down_float</item>
+    <item name="ic_arrow_up" type="drawable">@android:drawable/arrow_up_float</item>
+    <item name="ic_minus" type="drawable">@android:drawable/btn_minus</item>
+    <item name="ic_favorite" type="drawable">@android:drawable/star_on</item>
+    <item name="ic_home" type="drawable">@android:drawable/sym_def_app_icon</item>
+
+
+
+</resources>

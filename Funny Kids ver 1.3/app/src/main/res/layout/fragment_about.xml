@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.About">
+
+   <ImageView
+       android:layout_width="140dp"
+       android:layout_height="140dp"
+       android:id="@+id/icon_group"
+       android:src="@drawable/kimochi"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="56dp" />
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_below="@+id/icon_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:gravity="center"
+        android:text="Phần mềm Funny Kids verson 1.0"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:id="@+id/group_name"
+        android:gravity="center"
+        android:text="Nhóm phát triển :"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_name"
+        android:gravity="center"
+        android:text="Nguyễn Thanh Tùng "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/namanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tung"
+        android:gravity="center"
+        android:text="Đoàn Nam Anh "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/chien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namanh"
+        android:gravity="center"
+        android:text="Nguyễn Trọng Chiến"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
